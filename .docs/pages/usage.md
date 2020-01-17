@@ -9,7 +9,7 @@ const { Stripe } = Plugins;
 
 ...
 
-await Stripe.setPublishableKey('pk_test_....');
+await Stripe.setPublishableKey({key: 'pk_test_....'});
 ```
 
 ## Validating card information
